@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Contacto</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stilo1.css">
+</head>
+<body>
+	<div class="contenedor">
+        <form action="envio.php" method="post" class="form">
+
+            <div class="form-header">
+                <h1 class="form-title">C<span>ontacto</span></h1>
+            </div>
+
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" id="nombre" class="form-input" name="nombre1" required placeholder="Nombre...">
+
+            <label for="numero" class="form-label" >Número de telefono</label>
+            <input type="text" id="numero" class="form-input" name="numero1" required placeholder="Numero de telefono...">
+
+            <label for="correo" class="form-label">Correo Electronico</label>
+            <input type="email" id="correo" class="form-input" name="correo1" required placeholder="usuario@dominio.com">
+
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea name="mensaje1" id="mensaje" class="form-textarea" required placeholder="Mensaje..."></textarea>
+
+            <input type="submit" name="enviar" class="btn-submit" value="Enviar Mensaje">
+        </form>
+    </div>
+</body>
+</html>
